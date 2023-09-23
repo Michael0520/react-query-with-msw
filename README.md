@@ -1,28 +1,15 @@
-# React + TypeScript + Vite
+# React Query with MSW
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [React Query 測試文檔](#react-query-測試文檔)
 
-Currently, two official plugins are available:
+## MSW 文檔
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [官方文檔](https://mswjs.io/docs/api/rest)
 
-## Expanding the ESLint configuration
+## MSW 範例
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [GitHub 範例](https://github.com/mswjs/examples/tree/master/examples/rest-react)
 
-- Configure the top-level `parserOptions` property like this:
+## React Query 測試文檔
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# react-query-with-msw
+- [官方測試指南](https://tanstack.com/query/v4/docs/react/guides/testing)
