@@ -11,6 +11,7 @@ describe("useGetUserProfileAPIQuery", () => {
         await waitFor(() => result.current.isSuccess);
 
         const user = result.current.data;
+        console.log('user', user)
         console.log(result.current.isSuccess);
         expect(user?.nickname).toBe("user-login-1");
     });
